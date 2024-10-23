@@ -4,10 +4,10 @@
 }
 
 .box{
-    height: 80px;
+    height: 300px;
     width:100px ;
     border:2px solid black ;
-    margin-right: 5px;
+    margin-right:0;
     text-align: center;
 }
 
@@ -17,22 +17,24 @@
 }
 
 #container{
-    height:700px ;
-    width: 700px ;
-    padding:10px ;
+    height:900px ;
+    width: 500px ;
+    padding:0 ;
     margin: 20px;
     border:5px solid black ;
     display:flex ;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    /* justify-content:; */
+    /* flex-wrap: wrap; */
    /* flex-direction: row-reverse; */
 }
 
 #box1 { background-color: aqua; }
  #box2 { background-color:blueviolet;}
  #box3 { background-color:yellow;}
- #box4 { background-color:tomato;}
- #box5 { background-color: rgb(62, 157, 157); }
+ #box4 { background-color:tomato;
+         flex-shrink: 5;}
+ #box5 { background-color: rgb(62, 157, 157);
+         flex-shrink: 3; }
  #box6 { background-color:rgb(75, 51, 97);}
  #box7 { background-color:rgb(135, 135, 9);}
 
