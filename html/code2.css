@@ -28,14 +28,25 @@
    /* flex-direction: row-reverse; */
 }
 
-#box1 { background-color: aqua; }
- #box2 { background-color:blueviolet;}
- #box3 { background-color:yellow;}
+#box1 { background-color: aqua;
+         order: 4;}
+
+ #box2 { background-color:blueviolet;
+         order: 5;}
+
+ #box3 { background-color:yellow;
+         flex-shrink: 0;
+          order: 1;}
+
  #box4 { background-color:tomato;
-         flex-shrink: 5;}
+         flex-shrink: 5;
+          order: 2;}
+
  #box5 { background-color: rgb(62, 157, 157);
          flex-shrink: 3; }
+
  #box6 { background-color:rgb(75, 51, 97);}
+
  #box7 { background-color:rgb(135, 135, 9);}
 
    
